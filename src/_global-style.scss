@@ -1,0 +1,43 @@
+$dark-mode-elements: hsl(209, 23%, 22%);
+$dark-mode-background: hsl(207, 26%, 17%);
+$light-mode-text: hsl(200, 15%, 8%);
+$light-mode-input: hsl(0, 0%, 52%);
+$light-mode-background: hsl(0, 0%, 98%);
+$light-mode-elements: hsl(0, 0%, 100%);
+
+$width: 87vw;
+$width-mobile: 500px;
+$width-laptop: 1024px;
+
+$border-radius: 5px;
+
+
+.light {
+	background-color: white;
+	color: black;
+}
+
+.dark {
+	background-color: $dark-mode-elements;
+	color: $light-mode-elements;
+}
+
+.light-background{
+	background-color: $light-mode-background;
+}
+
+.dark-background{
+	background-color: $dark-mode-background;
+}
+
+.link {
+	text-decoration: none;
+
+	&:focus,
+	&:hover,
+	&:visited,
+	&:link,
+	&:active {
+		text-decoration: none;
+	}
+}
