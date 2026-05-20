@@ -2,9 +2,9 @@ import React from 'react';
 
 import './loading-screen.style.scss';
 
-function LoadingScreen() {
+function LoadingScreenComponent() {
 	return (
-		<div>
+		<div className="loading-screen">
 			<div></div>
 			<div></div>
 			<div></div>
@@ -13,4 +13,4 @@ function LoadingScreen() {
 	);
 }
 
-export default LoadingScreen;
+export default LoadingScreenComponent;

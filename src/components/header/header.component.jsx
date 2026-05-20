@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './header.style.scss';
 
-const Header = ({ handleDarkClick, theme }) => (
+const HeaderComponent = ({ handleDarkClick, theme }) => (
 	<div className={`header ${theme}`}>
 		<div className="header-container">
 			<Link to="/countries/" className="link">
@@ -16,4 +16,4 @@ const Header = ({ handleDarkClick, theme }) => (
 	</div>
 );
 
-export default Header;
+export default HeaderComponent;
